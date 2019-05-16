@@ -8,9 +8,10 @@ This repository includes:
 **Sourced from:** https://github.com/tensorflow/models/tree/master/research/audioset
 - The VGGish architecture defined in PyTorch.  
 **Adapted from:** https://github.com/harritaylor/torchvggish
+- The converted weights found in the [Releases](https://github.com/tcvrick/audioset-vggish-tensorflow-to-pytorch/releases) section.
 
 Please note that converted model does not produce exactly the same results as the original model, but should be 
-close within some tolerance.
+close in most cases.
 
 ## Usage
 1. Download the pretrained weights and PCA parameters from the [AudioSet](https://github.com/tensorflow/models/tree/master/research/audioset) repository and place in the working directory. 
