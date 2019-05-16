@@ -138,6 +138,10 @@ sandbox/
 *.pkl
 *.pt
 *.log
+*.ckpt
+*.pth
+*.zip
+*.npz
 
 # MNIST
 *ubyte
