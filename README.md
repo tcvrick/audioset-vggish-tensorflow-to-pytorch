@@ -11,5 +11,5 @@ along with a basic smoke test.
 
 ## Usage
 1. Download the pretrained weights from the AudioSet repository, and place in the working directory. 
-2. Install any dependencies required by AudioSet (e.g., resampy, numpy, TensorFlow, etc.)
+2. Install any dependencies required by AudioSet (e.g., resampy, numpy, TensorFlow, etc.).
 3. Run "convert_to_pytorch.py" to generate the PyTorch formatted weights for the VGGish model.

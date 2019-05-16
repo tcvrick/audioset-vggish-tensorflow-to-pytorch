@@ -6,8 +6,9 @@ class VGGish(nn.Module):
     PyTorch implementation of the VGGish model.
 
     Adapted from: https://github.com/harritaylor/torch-vggish
-    The following modifications were made: (i) correction for the missing ReLU layers, and (ii) correction for the
-    improperly formatted data when transitioning from NHWC --> NCHW in the fully-connected layers.
+    The following modifications were made: (i) correction for the missing ReLU layers, (ii) correction for the
+    improperly formatted data when transitioning from NHWC --> NCHW in the fully-connected layers, and (iii)
+    correction for flattening in the fully-connected layers.
     """
 
     def __init__(self):
