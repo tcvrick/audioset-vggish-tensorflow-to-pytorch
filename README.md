@@ -1,4 +1,4 @@
-# VGGish in PyTorch
+# AudioSet VGGish in PyTorch
 
 
 ## Introduction
@@ -14,7 +14,7 @@ Please note that converted model does not produce exactly the same results as th
 close in most cases.
 
 ## Usage
-1. Download the pretrained weights and PCA parameters from the [AudioSet](https://github.com/tensorflow/models/tree/master/research/audioset) repository and place in the working directory. 
+1. Download the pretrained weights and PCA parameters from the [AudioSet](https://github.com/tensorflow/models/tree/master/research/audioset) repository and place them in the working directory. 
 2. Install any dependencies required by [AudioSet](https://github.com/tensorflow/models/tree/master/research/audioset) (e.g., resampy, numpy, TensorFlow, etc.).
 3. Run **"convert_to_pytorch.py"** to generate the PyTorch formatted weights for the VGGish model or download
 the weights from the [Releases](https://github.com/tcvrick/audioset-vggish-tensorflow-to-pytorch/releases) section.
